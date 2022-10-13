@@ -67,9 +67,9 @@ const AddCard = () => {
                     </Link>
                 </li>
 
-                <li className='breadcrum-item'>
+                <li class="breadcrumb-item active" aria-current="page">
                     <Link to={`/decks/${deckId}/cards/new`}>
-                        Add Card
+                         Add Card
                     </Link>
                 </li>
             </ol>
